@@ -39,7 +39,7 @@ def getZonesByVille():
     data = r.json()
     tab_zone = []
 
-    
+
 
     # TODO
     return jsonify(zone)
@@ -53,5 +53,4 @@ def getZonesByAdresse():
 
 
 if __name__ == '__main__':
-    time.sleep(30)
     app.run(host='0.0.0.0', port=5050)
