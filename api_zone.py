@@ -9,6 +9,7 @@ zone = [
 ]
 
 
+
 @app.route('/')
 def accueil():
     return "Bonjour"
@@ -34,4 +35,5 @@ def getZonesByAdresse():
 
 
 if __name__ == '__main__':
+    sleep(30)
     app.run(host='0.0.0.0', port=5050)
